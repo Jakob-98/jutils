@@ -1,0 +1,4 @@
+grep -Eo "(http|https)://[a-zA-Z0-9./?=_%:-]*1440.jpg" funda.txt >> images.txt
+
+wget -r --no-parent --reject "index.html*" http://www.mysite.com/Pictures/
+
